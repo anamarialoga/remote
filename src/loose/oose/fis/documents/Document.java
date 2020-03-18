@@ -7,14 +7,5 @@ public abstract class Document {
         this.continut = continut;
     }
 
-    public abstract String[] analizeaza();
-
-    @Override
-    public String toString() {
-        String res = "";
-        for (String cuvant : continut) {
-            res += cuvant + " ";
-        }
-        return res;
     }
 }
